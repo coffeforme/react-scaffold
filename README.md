@@ -6,13 +6,49 @@ What is the authorization method you will use?
 
 What are the purpose for each layer?
 
-You don¿t need to render a component you neet to say a variable that th component should be rendered.
+You don't need to render a component you need to say a variable that the component should be rendered.
+
+Front-end frameworks like angular you have to say to a component in somehow that you want it to be visible or you want to reflects
+any behavior via emitters like Behavior<> or SubjectBehavior<> or Observable<> etc. 
 
 **React + Typescript Scratching a project**
 
 **Considerations:**
 
 **Since React is a library not a framework, it does not include some security features you’d need for a production deployment like ADDING custom headers to prevent attacks like CSRF. To overpass it you may include an additional feature.**
+
+
+As minumun requirements you really need to handle some conecepts before start coding, like to domain Paradigms as OOP, have read all the documentation about the tools used in this project template and finally to have a complete undestanding of Git that is close to 20 commands at all so don't be shy here is the list.
+[ ] Command line
+[ ] Vite - 1 hour - 2 week
+[ ] OOP - 10 hour - 2 week
+[ ] TypeScript - 5 hours - 2 week
+[ ] Git - 5 hours - 2 week
+[ ] SWC - 5 hours - 2 week
+[ ] [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#intro) - 1 hour - 2 week
+[ ] [Degit - 1 hour](https://github.com/Rich-Harris/degit)
+
+
+If you careless of complete domain at any of those aspects, please take a look onto related posts below.
+``
+Let's start!
+
+1. Let's get the project template your project folder.
++ React + Typ
+
+
+
+
+1. **Create a simple project with Vite React + Typescript**
+
+
+Just put the command in your favorite terminal
+
+[npm create vite@latest](https://vite.dev/guide/#scaffolding-your-first-vite-project)
+or
+http# npm 7+, extra double-dash is needed:
+npm create vite@latest my-vue-app -- --template vue
+
 
 1. **Adding eslint & prettier for a starting up project**
 
